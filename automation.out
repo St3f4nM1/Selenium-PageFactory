@@ -1,0 +1,71 @@
+2019-01-16 13:01:08 INFO  TestBase :100 - Initialize Web driver 539690370
+2019-01-16 13:01:11 INFO  WaitHelper :19 - WaitHelper object is created
+2019-01-16 13:01:11 INFO  WaitHelper :24 - Implicit Wait has been set to 20
+2019-01-16 13:01:17 INFO  WaitHelper :79 - waiting for page to load SECONDSseconds
+2019-01-16 13:01:20 INFO  WaitHelper :81 - page is loaded
+2019-01-16 13:01:42 INFO  TestBase :107 - Getting the url .....
+2019-01-16 13:01:535 INFO  VerificationHelper :20 - element is displayed [[ChromeDriver: chrome on MAC (6de1a6fe99bc4091d449ff6b88145c32)] -> id: identity]
+2019-01-16 13:01:535 INFO  WaitHelper :19 - WaitHelper object is created
+2019-01-16 13:01:413 INFO  WaitHelper :39 - waiting for [[ChromeDriver: chrome on MAC (6de1a6fe99bc4091d449ff6b88145c32)] -> css selector: ul[role="listbox"]]for30 seconds
+2019-01-16 13:01:631 INFO  WaitHelper :19 - WaitHelper object is created
+2019-01-16 13:01:896 INFO  WaitHelper :39 - waiting for [[ChromeDriver: chrome on MAC (6de1a6fe99bc4091d449ff6b88145c32)] -> id: react-autowhatever-destination-fsc-search]for50 seconds
+2019-01-16 13:01:03 INFO  WaitHelper :19 - WaitHelper object is created
+2019-01-16 13:01:22 INFO  WaitHelper :39 - waiting for [[ChromeDriver: chrome on MAC (6de1a6fe99bc4091d449ff6b88145c32)] -> id: depart-fsc-datepicker-button]for30 seconds
+2019-01-16 13:01:533 INFO  WaitHelper :19 - WaitHelper object is created
+2019-01-16 13:01:558 INFO  WaitHelper :39 - waiting for [[ChromeDriver: chrome on MAC (6de1a6fe99bc4091d449ff6b88145c32)] -> id: return-fsc-datepicker-button]for30 seconds
+2019-01-16 13:01:217 INFO  DropDownHelper :18 - Dropdown helper object created
+2019-01-16 13:01:797 INFO  TestBase :92 - Initialize Web driver 1866875501
+2019-01-16 13:01:801 INFO  WaitHelper :19 - WaitHelper object is created
+2019-01-16 13:01:802 INFO  WaitHelper :24 - Implicit Wait has been set to 20
+2019-01-16 13:01:807 INFO  WaitHelper :79 - waiting for page to load SECONDSseconds
+2019-01-16 13:01:811 INFO  WaitHelper :81 - page is loaded
+2019-01-16 13:01:859 INFO  TestBase :99 - Getting the url .....
+2019-01-16 13:01:852 INFO  VerificationHelper :20 - element is displayed [[ChromeDriver: chrome on MAC (ac6289bcf3b7d8f7fac26386d77ee469)] -> id: identity]
+2019-01-16 13:01:852 INFO  WaitHelper :19 - WaitHelper object is created
+2019-01-16 13:01:839 INFO  WaitHelper :39 - waiting for [[ChromeDriver: chrome on MAC (ac6289bcf3b7d8f7fac26386d77ee469)] -> css selector: ul[role="listbox"]]for30 seconds
+2019-01-16 13:01:53 INFO  WaitHelper :19 - WaitHelper object is created
+2019-01-16 13:01:327 INFO  WaitHelper :39 - waiting for [[ChromeDriver: chrome on MAC (ac6289bcf3b7d8f7fac26386d77ee469)] -> id: react-autowhatever-destination-fsc-search]for50 seconds
+2019-01-16 13:01:424 INFO  WaitHelper :19 - WaitHelper object is created
+2019-01-16 13:01:456 INFO  WaitHelper :39 - waiting for [[ChromeDriver: chrome on MAC (ac6289bcf3b7d8f7fac26386d77ee469)] -> id: depart-fsc-datepicker-button]for30 seconds
+2019-01-16 13:01:970 INFO  WaitHelper :19 - WaitHelper object is created
+2019-01-16 13:01:993 INFO  WaitHelper :39 - waiting for [[ChromeDriver: chrome on MAC (ac6289bcf3b7d8f7fac26386d77ee469)] -> id: return-fsc-datepicker-button]for30 seconds
+2019-01-16 13:01:658 INFO  DropDownHelper :18 - Dropdown helper object created
+2019-01-16 13:01:778 INFO  DropDownHelper :41 - selectUsingVisibleText and visibleText is Premium Economy
+2019-01-16 13:01:926 INFO  DropDownHelper :18 - Dropdown helper object created
+2019-01-16 13:01:970 INFO  DropDownHelper :41 - selectUsingVisibleText and visibleText is 1
+2019-01-16 13:01:533 ERROR VerificationHelper :23 - element is not presentnull
+2019-01-16 13:01:280 INFO  TestBase :88 - Initialize Web driver 1866875501
+2019-01-16 13:01:284 INFO  WaitHelper :19 - WaitHelper object is created
+2019-01-16 13:01:284 INFO  WaitHelper :24 - Implicit Wait has been set to 20
+2019-01-16 13:01:290 INFO  WaitHelper :79 - waiting for page to load SECONDSseconds
+2019-01-16 13:01:294 INFO  WaitHelper :81 - page is loaded
+2019-01-16 13:01:335 INFO  TestBase :95 - Getting the url .....
+2019-01-16 13:01:542 INFO  VerificationHelper :20 - element is displayed [[ChromeDriver: chrome on MAC (91be138b069ef2a80c491d811ad8b680)] -> id: identity]
+2019-01-16 13:01:543 INFO  WaitHelper :19 - WaitHelper object is created
+2019-01-16 13:01:489 INFO  WaitHelper :39 - waiting for [[ChromeDriver: chrome on MAC (91be138b069ef2a80c491d811ad8b680)] -> css selector: ul[role="listbox"]]for30 seconds
+2019-01-16 13:01:719 INFO  WaitHelper :19 - WaitHelper object is created
+2019-01-16 13:01:970 INFO  WaitHelper :39 - waiting for [[ChromeDriver: chrome on MAC (91be138b069ef2a80c491d811ad8b680)] -> id: react-autowhatever-destination-fsc-search]for50 seconds
+2019-01-16 13:01:78 INFO  WaitHelper :19 - WaitHelper object is created
+2019-01-16 13:01:92 INFO  WaitHelper :39 - waiting for [[ChromeDriver: chrome on MAC (91be138b069ef2a80c491d811ad8b680)] -> id: depart-fsc-datepicker-button]for30 seconds
+2019-01-16 13:01:611 INFO  WaitHelper :19 - WaitHelper object is created
+2019-01-16 13:01:635 INFO  WaitHelper :39 - waiting for [[ChromeDriver: chrome on MAC (91be138b069ef2a80c491d811ad8b680)] -> id: return-fsc-datepicker-button]for30 seconds
+2019-01-16 13:01:293 INFO  DropDownHelper :18 - Dropdown helper object created
+2019-01-20 21:01:402 INFO  TestBase :88 - Initialize Web driver 1866875501
+2019-01-20 21:01:406 INFO  WaitHelper :19 - WaitHelper object is created
+2019-01-20 21:01:407 INFO  WaitHelper :24 - Implicit Wait has been set to 20
+2019-01-20 21:01:413 INFO  WaitHelper :79 - waiting for page to load SECONDSseconds
+2019-01-20 21:01:417 INFO  WaitHelper :81 - page is loaded
+2019-01-20 21:01:461 INFO  TestBase :95 - Getting the url .....
+2019-01-20 21:01:807 INFO  VerificationHelper :20 - element is displayed [[ChromeDriver: chrome on MAC (bd4fca798da543eca5a1aa46fe288b4e)] -> id: identity]
+2019-01-20 21:01:808 INFO  WaitHelper :19 - WaitHelper object is created
+2019-01-20 21:01:337 INFO  WaitHelper :39 - waiting for [[ChromeDriver: chrome on MAC (bd4fca798da543eca5a1aa46fe288b4e)] -> css selector: ul[role="listbox"]]for30 seconds
+2019-01-20 21:01:563 INFO  WaitHelper :19 - WaitHelper object is created
+2019-01-20 21:01:795 INFO  WaitHelper :39 - waiting for [[ChromeDriver: chrome on MAC (bd4fca798da543eca5a1aa46fe288b4e)] -> id: react-autowhatever-destination-fsc-search]for50 seconds
+2019-01-20 21:01:433 INFO  WaitHelper :19 - WaitHelper object is created
+2019-01-20 21:01:448 INFO  WaitHelper :39 - waiting for [[ChromeDriver: chrome on MAC (bd4fca798da543eca5a1aa46fe288b4e)] -> id: depart-fsc-datepicker-button]for30 seconds
+2019-01-20 21:01:37 INFO  WaitHelper :19 - WaitHelper object is created
+2019-01-20 21:01:61 INFO  WaitHelper :39 - waiting for [[ChromeDriver: chrome on MAC (bd4fca798da543eca5a1aa46fe288b4e)] -> id: return-fsc-datepicker-button]for30 seconds
+2019-01-20 21:01:297 INFO  DropDownHelper :18 - Dropdown helper object created
+2019-01-20 21:01:421 INFO  DropDownHelper :41 - selectUsingVisibleText and visibleText is Premium Economy
+2019-01-20 21:01:562 INFO  DropDownHelper :18 - Dropdown helper object created
+2019-01-20 21:01:601 INFO  DropDownHelper :41 - selectUsingVisibleText and visibleText is 1
