@@ -31,10 +31,10 @@ public class SearchFlightsPage {
     WebElement skyScannerLogo;
 
 
-    @FindBy(id = "origin-fsc-search")
+    @FindBy(id = "fsc-origin-search")
     WebElement origin;
 
-    @FindBy(css = "input[name=\"destination-fsc-search\"]")
+    @FindBy(css = "input[id=\"fsc-destination-search\"]")
     WebElement destination;
 
     @FindBy(css = "ul[role=\"listbox\"]")
@@ -46,16 +46,16 @@ public class SearchFlightsPage {
     @FindBy(id = "return-fsc-datepicker-button")
     WebElement returnDate;
 
-    @FindBy(xpath = "//table[@class=\"bpk-calendar-grid-2VWOF\"]//tbody")
+    @FindBy(xpath = "//table[@class=\"BpkCalendarGrid_bpk-calendar-grid__sak14 FlightDatepicker_fsc-datepicker__list-size__1UX2a\"]//tbody")
     WebElement dates;
 
-    @FindBy(id = "fsc-class-travellers-trigger-1PZXn")
+    @FindBy(id = "CabinClassTravellersSelector_fsc-class-travellers-trigger__1qSiF")
     WebElement cabinClassAndTravellers;
 
     @FindBy(id = "search-controls-cabin-class-dropdown")
     WebElement cabinClass;
 
-    @FindBy(id = "react-autowhatever-destination-fsc-search")
+    @FindBy(id = "react-autowhatever-fsc-destination-search")
     WebElement destDropDown;
 
     @FindBy(css = "button[title=\"Increase number of children\"]")
@@ -64,7 +64,7 @@ public class SearchFlightsPage {
     @FindBy(id = "children-age-dropdown-0")
     WebElement childrenAgeDropDown;
 
-    @FindBy(css = "button[class=\"bpk-link-f3g0R\"]")
+    @FindBy(css = "button[class=\"BpkLink_bpk-link__1Wmr3\"]")
     WebElement doneBtn;
 
     @FindBy(css = "button[aria-label=\"Search flights\"]")
@@ -86,8 +86,8 @@ public class SearchFlightsPage {
 
     public void enterDestinationLocation(String destinationLocation) throws InterruptedException {
         WaitHelper waitHelper = new WaitHelper(driver);
-        destination.click();
         destination.clear();
+        Thread.sleep(2000);
         destination.sendKeys(destinationLocation);
         waitHelper.waitForElementVisible(destDropDown, 50);
         Thread.sleep(2000);

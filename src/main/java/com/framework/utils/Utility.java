@@ -15,7 +15,7 @@ public class Utility {
         try {
             TakesScreenshot ts = (TakesScreenshot) driver;
             File source = ts.getScreenshotAs(OutputType.FILE);
-            FileUtils.copyFile(source,new File("/Users/s.mitkovski/Desktop/SeleniumFramework - Expedia /src/main/resources/screenshots/"+screenShotName+".png"));
+            FileUtils.copyFile(source, new File("src/main/resources/screenshots/" + screenShotName + ".png"));
         } catch (IOException e) {
             System.out.println("Screenshots while taking screenshots" + e.getMessage());
         }

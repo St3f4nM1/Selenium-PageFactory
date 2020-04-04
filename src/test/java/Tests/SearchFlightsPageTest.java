@@ -20,9 +20,10 @@ public class SearchFlightsPageTest extends TestBase {
 
     @Test
     public void userShouldBeAbleToSearchForFlight() throws InterruptedException {
+        //Thread.sleep(90000);
         searchFlightsPage.landingPageAssertion();
         searchFlightsPage.enterOriginLocation("London Luton");
-        searchFlightsPage.enterDestinationLocation("New York");
+        searchFlightsPage.enterDestinationLocation("Berlin");
         searchFlightsPage.clickOnDatePicker();
         searchFlightsPage.pickDepartingDate();
         searchFlightsPage.clickReturnDatePicker();
@@ -30,6 +31,7 @@ public class SearchFlightsPageTest extends TestBase {
         searchFlightsPage.clickOnCabinclassAndTravellers("Premium Economy");
         searchFlightsPage.increaseNoOfChilds("1");
         searchFlightsPage.clickCheckBoxes();
+        Thread.sleep(5000);
         searchFlightsPage.clickSearcFlightButton();
         companySelectionPage.verifyThatTableIsShown();
 
